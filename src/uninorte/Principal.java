@@ -10,10 +10,12 @@ public class Principal {
 		Persona persona1 = new Persona("Tom","Doumolin");
 		Persona persona2 = new Persona("Nairo","Quintana");
 		Persona persona3 = new Persona("Alberto","Contador");
+		Persona persona4 = new Persona("Rigoberto","Uran");
 		LinkedList<Persona> listaPersonas =  new LinkedList<Persona>();
 		listaPersonas.add(persona1);
 		listaPersonas.add(persona2);
 		listaPersonas.add(persona3);
+		listaPersonas.add(persona4);
 		
 		Scanner sc = new Scanner(System.in);
 		
